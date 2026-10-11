@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cafe Florence | Café in Hornsby</title>
+<meta name="description" content="Cafe Florence — café in Hornsby, Sydney. Opening hours, location and contact.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef3f6;--ink:#16232c;--accent:#2f6f8f;--soft:#d4e3eb}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+a{color:inherit}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:1080px;margin:auto}
+nav b{font-family:Fraunces,serif;font-size:20px}
+nav a{margin-left:18px;text-decoration:none;font-weight:500;font-size:15px}
+.hero{background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('hero.jpg') center/cover;color:#fff;padding:120px 24px;text-align:center}
+.hero h1{font-family:Fraunces,serif;font-size:clamp(36px,7vw,64px);line-height:1.1}
+.hero p{font-size:19px;margin:14px auto 0;max-width:560px;opacity:.95}
+.rating{font-weight:600}
+.btn{display:inline-block;margin:26px 6px 0;padding:13px 24px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;border:2px solid #fff}
+main{max-width:1080px;margin:auto;padding:0 24px}
+section{padding:64px 0;border-bottom:1px solid var(--soft)}
+h2{font-family:Fraunces,serif;font-size:32px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:var(--soft);border-radius:16px;padding:24px}
+.card h3{font-size:18px;margin-bottom:6px}
+.hours{border-collapse:collapse;width:100%;max-width:460px}
+.hours td{padding:8px 0;border-bottom:1px solid var(--soft)}
+.hours td:last-child{text-align:right;font-weight:500}
+.visit{display:grid;grid-template-columns:1fr 1.3fr;gap:28px;align-items:start}
+iframe{width:100%;height:320px;border:0;border-radius:16px}
+footer{text-align:center;padding:36px 24px;font-size:14px;opacity:.7}
+@media(max-width:700px){.visit{grid-template-columns:1fr}nav a{display:none}.hero{padding:90px 20px}}
+</style>
+</head>
+<body>
+<nav><b>Cafe Florence</b><div><a href="#about">About</a><a href="#hours">Hours</a><a href="#visit">Visit</a></div></nav>
+<header class="hero">
+<h1>Cafe Florence</h1>
+<p>Breakfast, steak, fish and pasta, in a relaxed space with pavement seating in Hornsby.</p>
+
+<a class="btn" href="tel:+61299871160">Call +61 2 9987 1160</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Cafe%20Florence%20Florence%20St%2C%20Hornsby%20NSW%202077%2C%20Australia">Get directions</a>
+</header>
+<main>
+<section id="about">
+<h2>Come say hi</h2>
+<div class="grid">
+<div class="card"><h3>Coffee</h3><p>Made fresh by baristas who care about every cup.</p></div>
+<div class="card"><h3>Food</h3><p>Breakfast and lunch, made in-house and served all day.</p></div>
+<div class="card"><h3>Takeaway</h3><p>In a rush? Grab it to go. We'll have it ready fast.</p></div>
+</div>
+</section>
+<section id="hours"><h2>Opening hours</h2><table class="hours"><tr><td>Monday</td><td>7 AM–4 PM</td></tr><tr><td>Tuesday</td><td>7 AM–4 PM</td></tr><tr><td>Wednesday</td><td>7 AM–4 PM</td></tr><tr><td>Thursday</td><td>7 AM–4 PM</td></tr><tr><td>Friday</td><td>7 AM–4 PM</td></tr><tr><td>Saturday</td><td>7 AM–4 PM</td></tr><tr><td>Sunday</td><td>8 AM–4 PM</td></tr></table></section>
+<section id="visit">
+<h2>Visit us</h2>
+<div class="visit">
+<div><p><b>Florence St, Hornsby NSW 2077, Australia</b></p><p style="margin-top:8px">Phone: <a href="tel:+61299871160">+61 2 9987 1160</a></p></div>
+<iframe loading="lazy" title="Map" src="https://www.google.com/maps?q=Cafe%20Florence%20Florence%20St%2C%20Hornsby%20NSW%202077%2C%20Australia&output=embed"></iframe>
+</div>
+</section>
+</main>
+<footer>© Cafe Florence, Hornsby</footer>
+</body>
+</html>
